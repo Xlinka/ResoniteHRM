@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ResoniteHRM</string>
+    <string name="heart_rate_sensor_not_available">Heart rate sensor not available.</string>
+    <string name="url_text">URL: --</string>
+    <string name="heart_rate_text">Heart Rate: --</string>
+</resources>
