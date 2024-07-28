@@ -32,7 +32,6 @@ namespace com.LinkaIndustries.ResoniteHRM
             }
             else
             {
-                // Permissions already granted, continue with initialization
                 InitializeApp();
             }
         }
@@ -51,13 +50,12 @@ namespace com.LinkaIndustries.ResoniteHRM
 
             if (allPermissionsGranted)
             {
-                // All permissions granted, continue with initialization
                 InitializeApp();
             }
             else
             {
                 Toast.MakeText(activity, "Required permissions not granted", ToastLength.Long).Show();
-                activity.Finish(); // Close the app if permissions are not granted
+                activity.Finish(); // Close the app if permissions are not granted, perms for the poor
             }
         }
 
